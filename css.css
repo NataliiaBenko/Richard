@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: absolute;
+    width: 100%;
+}
+.mw{
+    max-width: 1440px;
+    margin: auto;
+}
+.nav-d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.link_one{
+    margin-right: 30px;
+}
+.richard-logo{
+    display: flex;
+    margin-top: 29px;
+}
+/*.logo-space{*/
+/*    margin-right: 22px;*/
+/*}*/
+li{
+    list-style-type: none;
+}
+.text-d{
+    text-decoration: none;
+}
+.logo-space{
+    margin-right: 665px;
+}
+.h-ul{
+    display: flex;
+    margin-top: 40px;
+}
+.about{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.features{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.how_to_use{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    }
+.download{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    }
+.section_one{
+    background-image: url('../images/pink.jpg');
+    background-size: cover;
+    /*padding-top: 269px;*/
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    font-family: 'Gothic A1';
+    margin-top: 226px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    /*padding-right: 169px;*/
+}
+h2{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.get_the_app{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #FC0A7E;
+    border-radius: 3px;
+    padding: 20px 40px;
+}
+.d-flex{
+    display: flex;
+}
+.image{
+margin-top: 60px;
+}
+.section_two{
+    background-image: url('../images/black.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.paragraph_one{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    padding-top: 100px;
+}
+.h-three-one{
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: none;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+.image_two{
+margin-top: 55px;
+}
