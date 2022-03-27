@@ -1,57 +1,383 @@
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-header{
-    position: absolute;
-    width: 100%;
+.section_fon{
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    background-size: cover;
 }
-.mw{
-    max-width: 1440px;
+.header_body{
+    max-width: 1200px;
     margin: auto;
-}
-.nav-d-flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.link_one{
-    margin-right: 30px;
-}
-.richard-logo{
-    display: flex;
+.logo{
     margin-top: 29px;
 }
-/*.logo-space{*/
-/*    margin-right: 22px;*/
-/*}*/
-li{
+.main-nav{
+    display: flex;
+    padding-top: 29px;
+}
+.main-nav li{
+    padding-right: 30px;
     list-style-type: none;
 }
-.text-d{
+.main-nav li a{
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
-}
-.logo-space{
-    margin-right: 665px;
-}
-.h-ul{
-    display: flex;
-    margin-top: 40px;
-}
-.about{
-    font-family: 'Gothic A1';
-    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    color: #FFFFFF;
+    font-family:'Gothic A1',sans-serif;
 }
-.features{
+.title_1{
+    max-width: 1200px;
+    margin: auto;
+    display:flex;
+    position: relative;
+    min-height: 800px;
+}
+.subject{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    font-family:'Gothic A1', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 229px;
+}
+.subject_1{
+    font-family:'Gothic A1', sans-serif;
+    font-weight: 400;
+    line-height: 44px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 25px;
+}
+.btn{
+    padding: 20px 40px;
+    background: #FC0A7E;
+    border-radius: 3px;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 1);
+}
+.btn:hover{
+    background: chocolate;
+    color: black;
+}
+.title_1_2{
+    margin-top: 60px;
+}
+.phone{
+    position: absolute;
+}
+.combine{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.background{
+    background-color: #1B1B1B;
+    background-size: cover;
+    width: 100%;
+}
+.title_1_3{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
     font-family: 'Gothic A1';
-    font-style: normal;
+    color: rgba(168, 168, 168, 1);
+    margin-bottom: 30px;
+    padding-top: 100px;
+    text-align: center;
+}
+.title_1_4{
+    text-align: center;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gothic A1';
+    margin-bottom: 22px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+.food{
+    margin-bottom: 159px;
+}
+.title_1_5{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Gothic A1';
+    color: rgba(168, 168, 168, 1);
+    margin-bottom: 30px;
+    margin-top: 268px;
+}
+.title_1_6{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    font-family: 'Gothic A1';
+    margin-bottom: 30px;
+    max-width: 302px;
+}
+.text{
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 400;
+    color: rgba(107, 107, 107, 1);
+    max-width: 302px;
+    margin-right: 195px;
+}
+.phone-svj{
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+.orders{
+    margin-right: 144px;
+    margin-bottom: 160px;
+}
+.title_1_7{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Gothic A1';
+    color: rgba(168, 168, 168, 1);
+    margin-top: 168px;
+    margin-bottom: 25px;
+}
+.title_1_8{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    font-family: 'Gothic A1';
+    margin-bottom: 27px;
+}
+.text_2{
+    font-family: 'Gothic A1';
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 400;
+    color: rgba(107, 107, 107, 1);
+    max-width: 302px;
+}
+.title_1_9{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Gothic A1';
+    color: rgba(168, 168, 168, 1);
+    margin-bottom: 30px;
+}
+.magna{
+    margin-left: 210px;
+}
+.centre{
+    text-align: center;
+}
+.burger{
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Gothic A1';
+    margin-bottom: 17px;
+}
+.text_3{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Gothic A1';
+    color: rgba(107, 107, 107, 1);
+    max-width: 371px;
+    margin-right: 61px;
+}
+.icon{
+    margin-bottom: 163px;
+}
+.number{
+    margin-bottom: 170px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers{
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    line-height: 90px;
+    font-size: 59px;
+}
+.subtitle_1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Gothic A1';
+
+}
+.ice{
+    margin-bottom: 162px;
+}
+.title_1_10{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Gothic A1';
+    color: rgba(168, 168, 168, 1);
+    margin-bottom: 30px;
+    margin-top: 17px;
+}
+.burgers{
+    margin-bottom: 167px;
+}
+.cheeps{
+    margin-right: 77px;
+}
+.content{
+    margin-bottom: 118px;
+}
+.quotes{
+    text-align: center;
+    margin: 0;
+}
+.quotes_1{
+    margin-bottom: 65px;
+}
+.text_4{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: 'Gothic A1';
+    color: rgba(107, 107, 107, 1);
+    margin: auto;
+    padding-bottom: 17px;
+    text-align: center;
+    max-width: 700px;
+}
+.title_1_11{
     font-weight: 400;
     font-size: 16px;
+    line-height: 30px;
+    font-family: 'Gothic A1';
+    padding-right: 20px;
+    color: rgba(107, 107, 107, 1);
+    padding-bottom: 88px;
+}
+.stripe{
+    padding-right: 20px;
+}
+.img_phones{
+    max-width: 100%;
+}
+.section_background{
+    min-height: 475px;
+}
+.ready{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    font-family: 'Gothic A1';
+    margin-bottom: 27px;
+    color: white;
+    padding-top: 150px;
+}
+.frame{
+    color: white;
+    size: 16px;
+    line-height: 26px;
+    font-family: 'Gothic A1';
+    font-weight: 400;
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid #B04BB3;
+    box-sizing: border-box;
+}
+.frame:hover{
+    background: aqua;
+    color: cadetblue;
+}
+.background_black{
+    background: #1B1B1B;
+    background-size: cover;
+}
+.updates{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    font-family: 'Gothic A1';
+    margin-bottom: 27px;
+    color: white;
+    padding-top: 127px;
+    padding-bottom: 20px;
+}
+.updates_2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Gothic A1';
+    color: white;
+    padding-bottom: 40px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.email{
+    padding: 22px 155px 22px 3px;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 0 0 0 #FC0A7E;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gothic A1';
+    color: rgba(28, 28, 28, 1);
+}
+.button{
+    padding: 22px 29px;
+    background: #FC0A7E;
+    border-radius: 0 3px 3px 0;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Gothic A1';
+}
+button:hover{
+    background: darkgreen;
+    color: #B04BB3;
+}
+.radius{
+    margin-top: 168px;
+    margin-bottom: 29px;
+}
+.link{
+    font-weight: 400;
+    font-size: 12px;
     line-height: 20px;
-    color: #FFFFFF;
+    color: rgba(107, 107, 107, 1);
+    text-decoration: none;
+    padding-right: 30px;
+}
 }
 .how_to_use{
     font-family: 'Gothic A1';
@@ -69,13 +395,7 @@ li{
     line-height: 20px;
     color: #FFFFFF;
     }
-.section_one{
-    background-image: url('../images/pink.jpg');
-    background-size: cover;
-    /*padding-top: 269px;*/
-    background-repeat: no-repeat;
-    height: 100vh;
-}
+
 h1{
     font-family: 'Gothic A1';
     margin-top: 226px;
@@ -112,8 +432,11 @@ h2{
 .d-flex{
     display: flex;
 }
+.tel{
+    margin-top: 60px;
+}
 .image{
-margin-top: 60px;
+position: absolute;
 }
 .section_two{
     background-image: url('../images/black.jpg');
@@ -146,4 +469,7 @@ margin-top: 60px;
 }
 .image_two{
 margin-top: 55px;
+}
+.bottom{
+   padding-bottom: 69px;
 }
