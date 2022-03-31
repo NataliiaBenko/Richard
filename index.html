@@ -6,30 +6,80 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="owl.carousel.css">
-    <link rel="stylesheet" href="owl.theme.default.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="owl.carousel.css">
+    <link rel="stylesheet" href="owl.theme.default.css">
+    <link rel="stylesheet" href="menu-css.css">
     <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="media-queries.css">
+
 </head>
 <body>
-<div class="nav">
-    <div class="nav__content">
-        <ul class="nav__list">
-            <li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>
-            <li class="nav__list-item"><a href="#" class="hover-target">studio</a></li>
-            <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>
-            <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>
-        </ul>
+
+<nav>
+    <div class="menu-btn">
+        <div class="line line__1"></div>
+        <div class="line line__2"></div>
+        <div class="line line__3"></div>
     </div>
-</div>
-<div class='cursor' id="cursor"></div>
-<div class='cursor2' id="cursor2"></div>
-<div class='cursor3' id="cursor3"></div>
-<a href="https://front.codes/" class="link-to-portfolio hover-target" target=”_blank”></a>
+
+    <div class="sub-menu-btn">
+        <div class="line line__1"></div>
+        <div class="line line__2"></div>
+    </div>
+
+    <ul class="nav-links">
+        <li class="link">
+            <a href="#">Home</a>
+        </li>
+        <li class="link">
+            <a href="#">About</a>
+            <ol>
+                <li><a href="#">designers</a></li>
+                <li><a href="#">developers</a></li>
+            </ol>
+        </li>
+        <li class="link">
+            <a href="#">Work</a>
+            <ol>
+                <li><a href="#">web</a></li>
+                <li><a href="#">graphic </a></li>
+                <li><a href="#">apps </a></li>
+            </ol>
+        </li>
+        <li class="link">
+            <a href="#">Contact</a>
+            <ol>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Social</a></li>
+            </ol>
+        </li>
+        <li class="link">
+            <a href="#">follow me</a>
+            <ol>
+                <li>
+                    <a target="_blank" href="https://twitter.com/DevLoop01">
+                        Twitter <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://codepen.io/dev_loop/">
+                        Codepen <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+            </ol>
+        </li>
+    </ul>
+</nav>
+
+
+
+
+
+
 <section class="section_fon">
     <header class="header_bady">
         <div class="header-wrapper">
@@ -67,7 +117,6 @@
             <img src="images/IMAGE%20(1).jpg" alt="">
         </div>
     </div>
-
 </section>
 <section class="food">
     <div class="container">
@@ -230,6 +279,7 @@
 <script src="js/scripts.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js.js"></script>
 </body>
 </html>
 
